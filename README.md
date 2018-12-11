@@ -57,6 +57,7 @@ php_soap_wsdl_cache_dir: '/php/cache/wsdl'
 php_timezone: "Asia/Taipei"
 php_upload_max_filesize: "20M"
 php_upload_tmp_dir: "/php/cache/upload_tmp"
+php_max_input_vars: 1000
 
 # Note: we need use 'www-data' on Debian 8.
 php_owner: 'www-data'
